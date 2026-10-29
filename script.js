@@ -1,8 +1,7 @@
-// PERSONALIZE AQUI antes de publicar.
 const contato = {
-  email: '', // Exemplo: 'daniel@exemplo.com'
-  github: '', // Exemplo: 'https://github.com/seu-usuario'
-  linkedin: '' // Exemplo: 'https://www.linkedin.com/in/seu-perfil/'
+  email: 'anisiodan@gmail.com',
+  github: 'https://github.com/DanielAnisio',
+  linkedin: 'https://www.linkedin.com/in/danielanísio'
 };
 
 const menuButton = document.querySelector('.menu-toggle');
