@@ -36,7 +36,7 @@ filtros.forEach(botao => botao.addEventListener('click', () => {
 }));
 
 const linksContato = [
-  ['email-link', contato.email ? `mailto:${contato.email}` : null],
+  ['email-link', contato.email ? `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(contato.email)}` : null],
   ['github-link', contato.github],
   ['linkedin-link', contato.linkedin]
 ];
